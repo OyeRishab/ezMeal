@@ -210,6 +210,7 @@ a {
 }
 
 .section-title {
+  text-decoration: underline;
   font-family: "Jost", sans-serif;
   font-size: 3.5rem;
   margin: 2rem 0;
@@ -250,5 +251,100 @@ a {
   .about-imgs {
     flex-direction: column;
     gap: 2rem;
+  }
+}
+
+.plan-container {
+  width: 100%;
+  max-width: 1170px;
+  margin: 4rem auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.plan-card {
+  width: 250px;
+  font-family: "Jost", sans-serif;
+  text-align: center;
+  border: 4px solid #0e1111;
+  border-radius: 10px;
+}
+
+.line {
+  width: 100%;
+  height: 4px;
+  background-color: #0e1111;
+}
+
+.plan-name {
+  font-size: 2.5rem;
+  padding: 2rem 0;
+  color: #f2f2f2;
+  background-color: #0e1111;
+  transition: all 0.3s ease-in-out;
+}
+
+.price {
+  padding: 2rem 0;
+  font-size: 2rem;
+}
+.price span {
+  display: block;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.discount {
+  padding: 1.5rem 0;
+  font-size: 1.5rem;
+}
+
+.discount span {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.validity {
+  padding: 1.5rem;
+  font-size: 1.5rem;
+}
+
+.validity span {
+  font-weight: 400;
+}
+
+.monthly {
+  padding: 2rem 0;
+  font-size: 2rem;
+}
+
+.monthly span {
+  display: block;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+@media screen and (max-width: 1070px) {
+  .plan-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  #month {
+    order: 1;
+  }
+
+  #week2 {
+    order: 2;
+  }
+
+  #week {
+    order: 3;
+  }
+
+  #trial {
+    order: 4;
   }
 }
