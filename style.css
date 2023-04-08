@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Jost:wght@100;200;300;400;500;600;700;800;900&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -194,5 +194,61 @@ a {
   }
   .hero-center h1 span {
     font-size: 7rem;
+  }
+}
+
+/* About Section */
+
+.about {
+  width: 100%;
+}
+
+.section-center {
+  width: 100%;
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+.section-title {
+  font-family: "Jost", sans-serif;
+  font-size: 3.5rem;
+  margin: 2rem 0;
+  text-align: center;
+}
+
+.section-info {
+  max-width: 900px;
+  margin: 0 auto;
+  font-family: "Jost", sans-serif;
+  font-size: 1.5rem;
+  line-height: 1.75;
+}
+
+.about-imgs {
+  margin: 3.5rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+.abt-img {
+  width: 150px;
+}
+
+.image-card {
+  text-align: center;
+}
+
+.image-card h1 {
+  font-family: "Jost", sans-serif;
+  margin: 1rem 0;
+}
+
+@media screen and (max-width: 1170px) {
+  .section-center {
+    width: 90vw;
+  }
+  .about-imgs {
+    flex-direction: column;
+    gap: 2rem;
   }
 }
