@@ -146,7 +146,7 @@ a {
       rgb(0, 0, 0, 0.7),
       rgba(0, 0, 0, 0)
     ),
-    url("images/hero.png");
+    url("images/hero2.webp");
   background-position: center;
   background-size: cover;
   display: flex;
@@ -179,7 +179,7 @@ a {
 @media screen and (max-width: 920px) {
   #hero {
     background-image: linear-gradient(rgb(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-      url("images/mobile-hero.jpg");
+      url("images/mobile3.png");
   }
   .hero-center {
     width: auto;
@@ -232,7 +232,7 @@ a {
 }
 
 .abt-img {
-  width: 150px;
+  width: 120px;
 }
 
 .image-card {
