@@ -40,14 +40,12 @@ a {
 }
 
 .logo {
-  color: #f2f2f2;
-  font-family: "Bebas Neue", cursive;
-  font-size: 2rem;
-  letter-spacing: 0.1rem;
-  font-weight: 400;
-  letter-spacing: 2px;
-  display: flex;
-  align-items: center;
+  width: 100px;
+  height: 48px;
+  background-image: url("images/black-logo.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .logo-img {
@@ -352,7 +350,9 @@ a {
     order: 4;
   }
 }
-
+.section-info {
+  margin-bottom: 2rem;
+}
 .section-info p {
   margin-bottom: 2rem;
 }
